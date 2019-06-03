@@ -894,6 +894,9 @@ section h1 {
 .team-member:nth-child(8) {
   background-image: url('../assets/jj.jpg');
 }
+.team-member:nth-child(9) {
+  background-image: url('../assets/dongwoo.jpg');
+}
 
 .team-member h5 {
   margin: 0;
