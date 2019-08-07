@@ -1007,6 +1007,42 @@ section h1 {
   height: 200px;
   margin-bottom: 2em;
 }
+/* INSTAGRRAM */
+.instagram-container{
+  width:320px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.artnote-logo{
+  width: 150px;
+}
+.instagram-container ul li{
+  list-style: none;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+.instagram-container ul li a{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.instagram-container ul li a:hover p{
+  text-decoration: underline;
+}
+.instagram-container ul li img{
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  margin-right: 10px;
+  display: block;
+}
+.instagram-container ul li p{
+  font-size: 14px;
+}
+
 
 /* MEDIA QUERY */
 @media only screen and (min-width: 900px) {
