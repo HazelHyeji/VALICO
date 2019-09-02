@@ -783,6 +783,20 @@ section h1 {
   display: block;
   margin: 0 auto;
 }
+.partners ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.partners ul li{
+  list-style: none;
+  width: 200px;
+  height: 150px;
+}
+.partners ul li img{
+  width: 100%;
+}
 
 /* ABOUT */
 .about {
@@ -1336,6 +1350,14 @@ section h1 {
   }
   .blockchain ul{
     margin-left: 20px;
+  }
+  .partners ul li{
+    list-style: none;
+    width: 100px;
+    height: 100px;
+  }
+  .partners ul li img{
+    width: 100%;
   }
   .section-header p{
     width: 90%;
